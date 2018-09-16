@@ -29,7 +29,7 @@ Examples can be found [here](https://github.com/dylan-shao/react-horizontal-scro
 ## Props
 > children: node, children you want to render
 
-> onItemScroll: func, will be called when item scroll, with the position of the children (start from 1)
+> onItemScroll: func, will be called when item scroll or click on the prev/next button, called with the position of the children (start from 1)
 
 > onUnmount: func, unmount hook
 
