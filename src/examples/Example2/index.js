@@ -23,7 +23,6 @@ export class Example2 extends Component {
           onItemScroll={position => {
             this.updatePosition(position);
           }}
-          position={currentStep}
           onUnmount={() => {
             this.updatePosition(null);
           }}
