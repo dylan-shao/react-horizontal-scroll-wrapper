@@ -1,0 +1,27 @@
+.StageCard {
+  height: 60px;
+  background: white;
+  flex: 0 0 60%;
+  margin: 0 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &_status {
+    font-weight: 700;
+  }
+
+  .complete {
+    color: $steps-color-complete;
+  }
+
+  &.upcoming {
+    opacity: 0.5;
+    background: $steps-color-todo;
+  }
+
+  &_title {
+    font-size: 1.3em;
+  }
+}

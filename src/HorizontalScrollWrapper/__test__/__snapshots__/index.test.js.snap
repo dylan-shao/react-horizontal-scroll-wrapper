@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressTracker component map to snapshot 1`] = `
+<section
+  className="ProgressTracker"
+>
+  <p
+    className="title"
+  >
+    YOUR PROGRESS | Closing on 
+  </p>
+  <React.Fragment>
+    <div
+      className="steps "
+    >
+      <div
+        className="item  "
+        key="1"
+        style={
+          Object {
+            "width": "99.5%",
+          }
+        }
+      />
+    </div>
+    <HorizontalScrollWrapper
+      disappearPercent={0.1}
+      onItemScroll={[Function]}
+      onUnmount={[Function]}
+      position={1}
+      smooth={true}
+    >
+      <StageCard
+        complete={false}
+        content={0}
+        currentStep={1}
+        description=""
+        key="1"
+        title=""
+        totalSteps={1}
+      />
+    </HorizontalScrollWrapper>
+     
+  </React.Fragment>
+</section>
+`;

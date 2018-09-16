@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StageCard component map to snapshot 1`] = `
+<div
+  className="StageCard upcoming"
+>
+  <div
+    className="StageCard_status upcoming"
+  >
+    upcoming
+     - Step 
+    4
+     of 
+    8
+  </div>
+  <div
+    className="StageCard_title"
+  >
+    Open transaction
+  </div>
+  <div
+    className="StageCard_date"
+  />
+</div>
+`;
