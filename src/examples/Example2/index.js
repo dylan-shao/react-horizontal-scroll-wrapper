@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import HorizontalScrollWrapper from 'HorizontalScrollWrapper';
-import StageCard from './StageCard';
-import './style.css';
 
 export class Example2 extends Component {
   constructor() {
     super();
     this.state = {
-      currentStep: 3,
+      currentStep: 0,
     };
   }
   updatePosition = position => {
@@ -17,18 +15,6 @@ export class Example2 extends Component {
   };
   render() {
     const { currentStep } = this.state;
-    // assign
-    const content = [
-      { id: 1 },
-      { id: 2 },
-      { id: 3 },
-      { id: 4 },
-      { id: 5 },
-      { id: 6 },
-      { id: 7 },
-      { id: 8 },
-      { id: 9 },
-    ];
 
     return (
       <section className="example1">
@@ -42,15 +28,54 @@ export class Example2 extends Component {
             this.updatePosition(null);
           }}
         >
-          {content.map(({ id, completed }, index) => (
-            <StageCard
-              key={id}
-              complete={completed || false}
-              currentStep={index + 1}
-              totalSteps={content.length}
-              content={index}
+          <div>
+            <img
+              src="https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="beautiful scene"
+              height="200"
+              width="350"
             />
-          ))}
+          </div>
+          <div>
+            <img
+              src="https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="beautiful scene"
+              height="200"
+              width="350"
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="beautiful scene"
+              height="200"
+              width="350"
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="beautiful scene"
+              height="200"
+              width="350"
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="beautiful scene"
+              height="200"
+              width="350"
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="beautiful scene"
+              height="200"
+              width="350"
+            />
+          </div>
         </HorizontalScrollWrapper>
       </section>
     );

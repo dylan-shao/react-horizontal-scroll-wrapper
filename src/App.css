@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background: grey;
 }
 
 .App-logo {
@@ -35,6 +34,7 @@
 .examples {
   display: flex;
   width: 700px;
+  margin: auto;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;

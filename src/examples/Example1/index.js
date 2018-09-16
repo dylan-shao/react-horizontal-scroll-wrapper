@@ -32,6 +32,7 @@ export class Example1 extends Component {
 
     return (
       <div className="example1">
+        <h2>Example1</h2>
         <HorizontalScrollWrapper
           smooth
           onItemScroll={position => {

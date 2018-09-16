@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Example1 from './examples/Example1';
+import Example2 from './examples/Example2';
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,7 +16,7 @@ class App extends Component {
         </header>
         <div className="examples">
           <Example1 />
-          <Example1 />
+          <Example2 />
         </div>
       </div>
     );
