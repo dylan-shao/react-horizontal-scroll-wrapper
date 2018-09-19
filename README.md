@@ -1,11 +1,8 @@
 # react-horizontal-scroll-wrapper
 A React Component that wrap your children in a horizontal scroll container.
 
-This repo is created with create-react-app. 
+[Online example](https://codesandbox.io/s/9306m5671y)
 
-#### TBD: 
-1. create npm moudle
-2. create online example
 
 ![](image/example.png)
 
